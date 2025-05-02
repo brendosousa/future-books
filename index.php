@@ -20,13 +20,50 @@ Emílio se passa por 'presidente' do mundo e aceita vender a Terra em troca de s
 
     $sinopse_especialistas = "Cinco desempregados sem nada a perder se unem para destruir a empresa que ferrou com suas vidas.";
 
-    $sinpose_por_que_as_coisas_caen = "Amanda é uma adolescente com um jeito 'desastroso' de lidar com coisas, situações e pessoas. Isso a leva a confrontar sua própria personalidade e assumir uma nova atitude frente a uma viagem para apresentar um projeto que vem realizando na escola num evento nacional.
+    $sinpose_por_que_as_coisas_caem = "Amanda é uma adolescente com um jeito 'desastroso' de lidar com coisas, situações e pessoas. Isso a leva a confrontar sua própria personalidade e assumir uma nova atitude frente a uma viagem para apresentar um projeto que vem realizando na escola num evento nacional.
 Junto a Kenya, sua melhor amiga, Amanda vai descobrir do jeito mais 'estabanado' possível que você não pode ser ninguém além de você mesmo.";
 
     $sinopose_vine = "Dois irmãos, Doni e Jean, certo dia recebem a visita de sua prima Paula e, em meio à conversas despretensiosas, ela menciona que tem uma colega que possui o mesmo gosto musical incomum de Jean e o encoraja a conhecê-la e fazer um primeiro contato pelas redes sociais.
 Doni, sem nenhuma pretensão, adiciona a mesma garota em suas redes sociais e logo esta inicia uma conversa. Após vários papos, os dois se encantam e iniciam um relacionamento, porém é complicado pois a garota, Vine, possui grandes problemas de auto-estima e também problemas para exprimir seus sentimentos.
 Após um tempo, Doni decide deixar Vine, percebendo que o relacionamento não iria para frente. Nisso, Jean se aproxima mais da garota e logo inicia um relacionamento com ela.
 Quando descobre isso, Doni se arrepende e tenta voltar com Vine enquanto a garota se vê numa situação em que não sabe o que fazer.";
+
+if (isset($_POST['submit'])) {
+    $obra_escolhida = $_POST['operation'];
+    switch ($obra_escolhida) {
+        case "1":
+            $result = $sinopse_morte_e_vida_de_osmar_fragoso;
+            break;;
+        case "2":
+            $result = $sinopose_chico_barauna;
+            break;
+        case "3":
+            $result = $sinopse_fazenda_treze;
+            break;
+        case "4":
+            $result = $sinopse_marra_vs_leone;
+            break;
+        case "5":
+            $result = $sinopse_ceifador;
+            break;
+        case "6":
+            $result = $sinopse_homem_que_vendeu_o_mundo;
+            break;
+        case "7":
+            $result = $sinopse_especialistas;
+            break;
+        case "8":
+            $result = $sinpose_por_que_as_coisas_caem;
+            break;                    
+        case "9":
+            $result = $sinopose_vine;
+            break; 
+        default:
+            $result = "Escolha inválida.";
+            break;
+    }
+    echo "Sinopse do livro \n: $result";
+}
 
 
 ?>
