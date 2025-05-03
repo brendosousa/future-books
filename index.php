@@ -44,11 +44,16 @@ if (isset($_POST['submit'])) {
             $result = "Escolha inválida.";
             break;
     }
-    echo "
-        <h2>$titulos[$pos]</h2>
-        <div>
-            $result    
-        </div>";
+    echo "<div>
+            <link rel='stylesheet' href='style.css'>
+            <h2>$titulos[$pos]</h2>
+            <div>
+                $result    
+            </div>
+            <button>
+                <a href='index.html'>Voltar</a>
+            </button>
+         </div>";
     
 }
 

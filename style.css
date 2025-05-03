@@ -20,3 +20,6 @@ input, select, button {
 h1, p {
     text-align: center;
 }
+div{
+    width: 60%;
+}
