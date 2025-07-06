@@ -1,7 +1,13 @@
 # Future Books
 
-## Projeto desenvolvido para praticar os conceitos básicos da linguagem PHP.
+    Projeto desenvolvido para praticar os conceitos básicos da linguagem PHP.
 
+## Rodando o projeto
+    - Para rodar o projeto localmente, execute php -S localhost:8000 dentro da pasta do projeto
+    - Acesse http://localhost:8000/index.html 
+
+
+## Versões
 
 ### Primeira versão
 

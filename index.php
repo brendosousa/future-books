@@ -1,13 +1,16 @@
 <?php
- include "info.php";
+include "info.php";
 
-if (isset($_POST['submit'])) {
+if ($_SERVER["REQUEST_METHOD"] === "POST" && isset($_POST['submit'])) {
     $obra_escolhida = $_POST['operation'];
+    $result = "Sinopse não encontrada.";
+    $pos = null;
+
     switch ($obra_escolhida) {
         case "1":
             $result = $sinopse_morte_e_vida_de_osmar_fragoso;
             $pos = 0;
-            break;;
+            break;
         case "2":
             $result = $sinopose_chico_barauna;
             $pos = 1;
@@ -44,9 +47,16 @@ if (isset($_POST['submit'])) {
             $result = "Escolha inválida.";
             break;
     }
+
+    if ($pos !== null && isset($titulos[$pos])) {
+        $titulo = $titulos[$pos];
+    } else {
+        $titulo = "Título não encontrado.";
+    }
+
     echo "<div>
             <link rel='stylesheet' href='style.css'>
-            <h2>$titulos[$pos]</h2>
+            <h2>$titulo</h2>
             <div>
                 $result    
             </div>
@@ -54,8 +64,7 @@ if (isset($_POST['submit'])) {
                 <a href='index.html'>Voltar</a>
             </button>
          </div>";
-    
+} else {
+    echo "Acesso inválido.";
 }
-
-
 ?>
