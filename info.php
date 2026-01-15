@@ -1,11 +1,5 @@
 <?php
 
-    $sinopse_morte_e_vida_de_osmar_fragoso = "Esse livro trata da história de um jovem que aspira ser cineasta. Ele trabalha como repositor de mercadorias de um supermercado numa pequena cidade do interior nordestino. Fascinado pelo universo da sétima arte, o rapaz desenvolveu várias ideias de roteiros que espera um dia transformar em filmes de grande sucesso. 
-Certo dia, ele descobre que haverá um festival de cinema em São Paulo e, nesse evento, haverá um concurso de filmes amadores sendo que um dos jurados da competição será um dos seus cineastas favoritos, Alfredo Santana.
-Renan decide entrar na competição e, mesmo sem recurso algum, começa uma longa batalha desde reunir um time para sua produção até conseguir os recursos necesssários.
-Para garantir seu triunfo no festival, ele decide usar seu melhor roteiro: A Morte e a Vida de Osmar Fragoso. Esse roteiro conta a história de um homem que morre e, no céu, faz um acordo com Deus para voltar no tempo e corrigir todos os seus erros de sua vida a fim de provar que todas as pessoas seriam salvas se tivessem uma segunda chance de fazer tudo certo.;
-Para realizar tal feito, Renan decide também adotar um nome artístico: Renan Marcovski, para atrair mais atenção.";
-
     $sinopose_chico_barauna = "Um humilde dono de mercearia numa pequena cidade nordestina se vê numa situação em que precisa assumir a liderança do município para evitar que pessoas poderosas destruam o seu lar e de todo o seu povo.";
 
     $sinopse_fazenda_treze = "Um jovem rapaz descobre que é o herdeiro de uma fazenda em uma pequena cidade do interior. Diante disso, ele decide aderir à vida de homem do campo enquanto descobre essa cidade fantástica em que vai viver.";
@@ -28,5 +22,5 @@ Doni, sem nenhuma pretensão, adiciona a mesma garota em suas redes sociais e lo
 Após um tempo, Doni decide deixar Vine, percebendo que o relacionamento não iria para frente. Nisso, Jean se aproxima mais da garota e logo inicia um relacionamento com ela.
 Quando descobre isso, Doni se arrepende e tenta voltar com Vine enquanto a garota se vê numa situação em que não sabe o que fazer.";
 
-    $titulos = ["A Morte e a Vida de Osmar Fragoso", "Chico Baraúna", "Fazenda Treze", "Marra vs Leone", "O Ceifador", "O Homem que Vendeu o Mundo", "Os Especialistas", "Por que as Coisas Caem?", "Vine"];
+    $titulos = ["Chico Baraúna", "Fazenda Treze", "Marra vs Leone", "O Ceifador", "O Homem que Vendeu o Mundo", "Os Especialistas", "Por que as Coisas Caem?", "Vine"];
 ?>
